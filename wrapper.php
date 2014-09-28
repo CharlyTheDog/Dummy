@@ -1,5 +1,6 @@
 <?php
-// The wrapper template used to load header and footer
+// The wrapper template
+// Load header, footer and sidebar
 
 get_header( dummy_template_base() ); ?>
 
