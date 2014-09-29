@@ -1,4 +1,5 @@
-<?php
+<?php defined('ABSPATH') or die("Silence is golden.");
+
 // We include all .php files from our includes directory here
 // If there is any functionality to add do so by adding it to includes/custom.php
 

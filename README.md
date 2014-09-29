@@ -45,5 +45,3 @@ All JS files are found in `assets/src/js` and `assets/src/vendor/bootstrap/js` a
 If you want to add custom JS, please do so by including it to `assets/src/js/custom.js`.
 
 If you are using Codekit just add the `assets` directory to it. This directory includes a `codekit-config.json` file, which tells Codekit how to handle the JS files.
-
-
