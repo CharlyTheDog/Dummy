@@ -20,35 +20,47 @@
 </head>
 
 <body <?php body_class(); ?>>
-<div id="page" class="hfeed site">
-	<?php if ( get_header_image() ) : ?>
-	<div id="site-header">
-		<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-			<img src="<?php header_image(); ?>" width="<?php echo get_custom_header()->width; ?>" height="<?php echo get_custom_header()->height; ?>" alt="">
-		</a>
-	</div>
-	<?php endif; ?>
+    <header class="header" role="banner">
+        <div class="container">
+            <div class="navbar-header">
+                <button class="navbar-toggle btn navbar-btn" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>">
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/logo.png" id="logoimg" alt="<?php bloginfo( 'name' ); ?>" width="150px">
+                </a>
+            </div>
 
-	<header id="masthead" class="site-header" role="banner">
-		<div class="header-main">
-			<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+            <!-- BEGIN TOP NAVIGATION MENU -->
+            <div class="navbar-collapse collapse">
 
-			<div class="search-toggle">
-				<a href="#search-container" class="screen-reader-text"><?php _e( 'Search', 'twentyfourteen' ); ?></a>
-			</div>
+                <ul class="nav navbar-nav">
 
-			<nav id="primary-navigation" class="site-navigation primary-navigation" role="navigation">
-				<button class="menu-toggle"><?php _e( 'Primary Menu', 'twentyfourteen' ); ?></button>
-				<a class="screen-reader-text skip-link" href="#content"><?php _e( 'Skip to content', 'twentyfourteen' ); ?></a>
-				<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'nav-menu' ) ); ?>
-			</nav>
-		</div>
+                    <?php
+                     wp_nav_menu( array(
+                        'theme_location'    => 'header-menu',
+                        'depth'             => 2,
+                        'container'         => '',
+                        'items_wrap'        => '%3$s',
+                        'fallback_cb'       => 'wp_bootstrap_navwalker::fallback',
+                        'walker'            => new wp_bootstrap_navwalker())
+                    );
+                    ?>
 
-		<div id="search-container" class="search-box-wrapper hide">
-			<div class="search-box">
-				<?php get_search_form(); ?>
-			</div>
-		</div>
-	</header><!-- #masthead -->
+                    <li class="menu-search">
+                        <span class="sep"></span>
+                        <i class="fa fa-search search-btn"></i>
 
-	<div id="main" class="site-main">
+                        <div class="search-box">
+                            <?php get_search_form(); ?>
+                        </div> 
+                    </li>
+                </ul>                         
+            </div>
+            <!-- END TOP NAVIGATION MENU -->
+        </div>
+    </header><!-- #masthead -->
+
+    <div id="main" class="site-main">

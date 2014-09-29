@@ -1,7 +1,7 @@
 <?php
 // Template wrapper by scribu.net
 
-if( !function_exists ( 'dummy_wp_title' ) ){
+if( !function_exists ( 'dummy_wp_title' ) ):
 function dummy_wp_title( $title, $sep ) {
 	if ( is_feed() ) {
 		return $title;
@@ -25,5 +25,5 @@ function dummy_wp_title( $title, $sep ) {
 
 	return $title;
 }
+endif;
 add_filter( 'wp_title', 'dummy_wp_title', 10, 2 );
-}

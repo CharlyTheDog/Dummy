@@ -13,7 +13,7 @@ function dummy_template_base() {
 }
 }
 
-if( !function_exists ( 'dummy_template_wrapping' ) ){
+if( !function_exists ( 'Dummy_Wrapping' ) ):
 class Dummy_Wrapping {
 
 	/**
@@ -42,6 +42,5 @@ class Dummy_Wrapping {
 		return locate_template( $templates );
 	}
 }
-
+endif;
 add_filter( 'template_include', array( 'Dummy_Wrapping', 'wrap' ), 99 );
-}
