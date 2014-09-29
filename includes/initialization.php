@@ -16,7 +16,6 @@ endif;
 // Register Custom Navigation Walker
 require_once('vendor/wp_bootstrap_navwalker.php');
 
-
 // Add theme functions
 if ( !function_exists( 'dummy_wp_theme_setup' ) ):
 function dummy_wp_theme_setup() {
