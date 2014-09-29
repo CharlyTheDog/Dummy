@@ -22,3 +22,11 @@ First Steps
 1. Open `style.css` and edit the text to fit your own project.
 1. Change the screenshot.png to your own projects screenshot.
 1. Replace the images in `assets/img/` with your own.
+
+Setup Development Environment
+------
+
+Dummy uses LESS for styling your website. All LESS files can be found in `assets/less`.
+You need to setup a LESS compiler to compile `assets/less/styles.less` to `assets/css/styles.css`.
+
+If you are using Codekit just add the `assets` directory to it. This directory includes a `codekit-config.json` file, which tells Codekit how to handle the LESS files.
