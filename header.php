@@ -1,7 +1,6 @@
 <?php defined('ABSPATH') or die("Silence is golden.");
 
 // The header of our theme
-
 ?>
 <!DOCTYPE html>
 <!--[if IE 7]>

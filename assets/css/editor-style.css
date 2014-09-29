@@ -1,0 +1,4 @@
+@import url( 'main.css' );
+
+/* Add overwrites as needed so that the content of the editor field is attractive and not broken */
+body, body.wp-autoresize { padding: 10px !important; background-color:#fff; } 

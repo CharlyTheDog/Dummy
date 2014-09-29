@@ -14,13 +14,13 @@
                 &copy <?php echo date(Y) ?>  <?php echo get_bloginfo('name'); ?>
             </section>
             <section class="sociallinks">
-                <a href="#" alt="<?php echo get_bloginfo('name'); ?> auf facebook">
+                <a href="#" title="<?php _e(get_bloginfo('name').' auf facebook', 'dummy'); ?>">
                     <i class="icon-facebook"></i>
                 </a>
-                <a href="#" alt="<?php echo get_bloginfo('name'); ?> auf twitter">
+                <a href="#" title="<?php _e(get_bloginfo('name').' auf twitter', 'dummy'); ?>">
                     <i class="icon-twitter"></i>
                 </a>
-                <a href="#" alt="<?php echo get_bloginfo('name'); ?> auf google+">
+                <a href="#" title="<?php _e(get_bloginfo('name').' auf google+', 'dummy'); ?>">
                     <i class="icon-google-plus"></i>
                 </a>
             </section>
