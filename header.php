@@ -24,9 +24,7 @@
         <div class="container">
             <div class="navbar-header">
                 <button class="navbar-toggle btn navbar-btn" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
+                    <span class="icon-reorder"></span>
                 </button>
                 <a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>">
                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/logo.png" id="logoimg" alt="<?php bloginfo( 'name' ); ?>" width="150px">

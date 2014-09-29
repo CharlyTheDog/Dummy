@@ -1,0 +1,16 @@
+//** Default `.form-control` height
+@input-height-base:              (@line-height-computed + (@padding-base-vertical * 2) + 4);
+//** Large `.form-control` height
+@input-height-large:             (ceil(@font-size-large * @line-height-large) + (@padding-large-vertical * 2) + 4);
+//** Small `.form-control` height
+@input-height-small:             (floor(@font-size-small * @line-height-small) + (@padding-small-vertical * 2) + 4);
+
+span.wpcf7-not-valid-tip {
+    .alert();
+    .alert-danger();
+    padding:5px 10px;
+    font-size:14px;
+    .close {
+        font-size:22px;
+    }
+}
