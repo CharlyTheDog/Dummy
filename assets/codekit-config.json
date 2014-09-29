@@ -149,10 +149,10 @@
       "debugStyle" : 0,
       "strictMath" : 0
     },
-    "\/src\/less\/layouts\/general.less" : {
+    "\/src\/vendor\/bootstrap\/less\/carousel.less" : {
       "ieCompatibility" : 1,
-      "inputAbbreviatedPath" : "\/src\/less\/layouts\/general.less",
-      "outputAbbreviatedPath" : "\/src\/less\/css\/general.css",
+      "inputAbbreviatedPath" : "\/src\/vendor\/bootstrap\/less\/carousel.less",
+      "outputAbbreviatedPath" : "\/src\/vendor\/bootstrap\/css\/carousel.css",
       "outputPathIsSetByUser" : 0,
       "strictUnits" : 0,
       "relativeURLS" : 0,
@@ -166,10 +166,10 @@
       "debugStyle" : 0,
       "strictMath" : 0
     },
-    "\/src\/vendor\/bootstrap\/less\/carousel.less" : {
+    "\/src\/less\/layouts\/general.less" : {
       "ieCompatibility" : 1,
-      "inputAbbreviatedPath" : "\/src\/vendor\/bootstrap\/less\/carousel.less",
-      "outputAbbreviatedPath" : "\/src\/vendor\/bootstrap\/css\/carousel.css",
+      "inputAbbreviatedPath" : "\/src\/less\/layouts\/general.less",
+      "outputAbbreviatedPath" : "\/src\/less\/css\/general.css",
       "outputPathIsSetByUser" : 0,
       "strictUnits" : 0,
       "relativeURLS" : 0,
@@ -364,10 +364,10 @@
       "debugStyle" : 0,
       "strictMath" : 0
     },
-    "\/src\/vendor\/bootstrap\/less\/mixins.less" : {
+    "\/src\/vendor\/bootstrap\/less\/mixins\/grid.less" : {
       "ieCompatibility" : 1,
-      "inputAbbreviatedPath" : "\/src\/vendor\/bootstrap\/less\/mixins.less",
-      "outputAbbreviatedPath" : "\/src\/vendor\/bootstrap\/css\/mixins.css",
+      "inputAbbreviatedPath" : "\/src\/vendor\/bootstrap\/less\/mixins\/grid.less",
+      "outputAbbreviatedPath" : "\/src\/vendor\/bootstrap\/less\/css\/grid.css",
       "outputPathIsSetByUser" : 0,
       "strictUnits" : 0,
       "relativeURLS" : 0,
@@ -381,10 +381,10 @@
       "debugStyle" : 0,
       "strictMath" : 0
     },
-    "\/src\/vendor\/bootstrap\/less\/mixins\/grid.less" : {
+    "\/src\/vendor\/bootstrap\/less\/mixins.less" : {
       "ieCompatibility" : 1,
-      "inputAbbreviatedPath" : "\/src\/vendor\/bootstrap\/less\/mixins\/grid.less",
-      "outputAbbreviatedPath" : "\/src\/vendor\/bootstrap\/less\/css\/grid.css",
+      "inputAbbreviatedPath" : "\/src\/vendor\/bootstrap\/less\/mixins.less",
+      "outputAbbreviatedPath" : "\/src\/vendor\/bootstrap\/css\/mixins.css",
       "outputPathIsSetByUser" : 0,
       "strictUnits" : 0,
       "relativeURLS" : 0,
@@ -415,10 +415,10 @@
       "debugStyle" : 0,
       "strictMath" : 0
     },
-    "\/src\/vendor\/bootstrap\/less\/mixins\/responsive-visibility.less" : {
+    "\/src\/less\/components\/forms.less" : {
       "ieCompatibility" : 1,
-      "inputAbbreviatedPath" : "\/src\/vendor\/bootstrap\/less\/mixins\/responsive-visibility.less",
-      "outputAbbreviatedPath" : "\/src\/vendor\/bootstrap\/less\/css\/responsive-visibility.css",
+      "inputAbbreviatedPath" : "\/src\/less\/components\/forms.less",
+      "outputAbbreviatedPath" : "\/src\/less\/css\/forms.css",
       "outputPathIsSetByUser" : 0,
       "strictUnits" : 0,
       "relativeURLS" : 0,
@@ -432,10 +432,10 @@
       "debugStyle" : 0,
       "strictMath" : 0
     },
-    "\/src\/less\/components\/forms.less" : {
+    "\/src\/vendor\/bootstrap\/less\/mixins\/responsive-visibility.less" : {
       "ieCompatibility" : 1,
-      "inputAbbreviatedPath" : "\/src\/less\/components\/forms.less",
-      "outputAbbreviatedPath" : "\/src\/less\/css\/forms.css",
+      "inputAbbreviatedPath" : "\/src\/vendor\/bootstrap\/less\/mixins\/responsive-visibility.less",
+      "outputAbbreviatedPath" : "\/src\/vendor\/bootstrap\/less\/css\/responsive-visibility.css",
       "outputPathIsSetByUser" : 0,
       "strictUnits" : 0,
       "relativeURLS" : 0,
@@ -596,10 +596,10 @@
       "debugStyle" : 0,
       "strictMath" : 0
     },
-    "\/src\/vendor\/bootstrap\/less\/mixins\/background-variant.less" : {
+    "\/src\/vendor\/bootstrap\/less\/mixins\/vendor-prefixes.less" : {
       "ieCompatibility" : 1,
-      "inputAbbreviatedPath" : "\/src\/vendor\/bootstrap\/less\/mixins\/background-variant.less",
-      "outputAbbreviatedPath" : "\/src\/vendor\/bootstrap\/less\/css\/background-variant.css",
+      "inputAbbreviatedPath" : "\/src\/vendor\/bootstrap\/less\/mixins\/vendor-prefixes.less",
+      "outputAbbreviatedPath" : "\/src\/vendor\/bootstrap\/less\/css\/vendor-prefixes.css",
       "outputPathIsSetByUser" : 0,
       "strictUnits" : 0,
       "relativeURLS" : 0,
@@ -630,10 +630,10 @@
       "debugStyle" : 0,
       "strictMath" : 0
     },
-    "\/src\/vendor\/bootstrap\/less\/utilities.less" : {
+    "\/src\/vendor\/bootstrap\/less\/mixins\/background-variant.less" : {
       "ieCompatibility" : 1,
-      "inputAbbreviatedPath" : "\/src\/vendor\/bootstrap\/less\/utilities.less",
-      "outputAbbreviatedPath" : "\/src\/vendor\/bootstrap\/css\/utilities.css",
+      "inputAbbreviatedPath" : "\/src\/vendor\/bootstrap\/less\/mixins\/background-variant.less",
+      "outputAbbreviatedPath" : "\/src\/vendor\/bootstrap\/less\/css\/background-variant.css",
       "outputPathIsSetByUser" : 0,
       "strictUnits" : 0,
       "relativeURLS" : 0,
@@ -664,10 +664,10 @@
       "debugStyle" : 0,
       "strictMath" : 0
     },
-    "\/src\/vendor\/bootstrap\/less\/mixins\/nav-vertical-align.less" : {
+    "\/src\/vendor\/bootstrap\/less\/utilities.less" : {
       "ieCompatibility" : 1,
-      "inputAbbreviatedPath" : "\/src\/vendor\/bootstrap\/less\/mixins\/nav-vertical-align.less",
-      "outputAbbreviatedPath" : "\/src\/vendor\/bootstrap\/less\/css\/nav-vertical-align.css",
+      "inputAbbreviatedPath" : "\/src\/vendor\/bootstrap\/less\/utilities.less",
+      "outputAbbreviatedPath" : "\/src\/vendor\/bootstrap\/css\/utilities.css",
       "outputPathIsSetByUser" : 0,
       "strictUnits" : 0,
       "relativeURLS" : 0,
@@ -766,10 +766,10 @@
       "debugStyle" : 0,
       "strictMath" : 0
     },
-    "\/src\/vendor\/bootstrap\/less\/mixins\/vendor-prefixes.less" : {
+    "\/src\/vendor\/bootstrap\/less\/mixins\/nav-vertical-align.less" : {
       "ieCompatibility" : 1,
-      "inputAbbreviatedPath" : "\/src\/vendor\/bootstrap\/less\/mixins\/vendor-prefixes.less",
-      "outputAbbreviatedPath" : "\/src\/vendor\/bootstrap\/less\/css\/vendor-prefixes.css",
+      "inputAbbreviatedPath" : "\/src\/vendor\/bootstrap\/less\/mixins\/nav-vertical-align.less",
+      "outputAbbreviatedPath" : "\/src\/vendor\/bootstrap\/less\/css\/nav-vertical-align.css",
       "outputPathIsSetByUser" : 0,
       "strictUnits" : 0,
       "relativeURLS" : 0,
@@ -851,17 +851,6 @@
       "debugStyle" : 0,
       "strictMath" : 0
     },
-    "\/src\/vendor\/bootstrap\/js\/bootstrap.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/src\/vendor\/bootstrap\/js\/bootstrap.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/src\/vendor\/bootstrap\/js\/bootstrap-ck.js",
-      "fileType" : 64
-    },
     "\/src\/vendor\/bootstrap\/less\/mixins\/forms.less" : {
       "ieCompatibility" : 1,
       "inputAbbreviatedPath" : "\/src\/vendor\/bootstrap\/less\/mixins\/forms.less",
@@ -878,6 +867,17 @@
       "outputStyle" : 0,
       "debugStyle" : 0,
       "strictMath" : 0
+    },
+    "\/src\/vendor\/bootstrap\/js\/bootstrap.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/src\/vendor\/bootstrap\/js\/bootstrap.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/src\/vendor\/bootstrap\/js\/bootstrap-ck.js",
+      "fileType" : 64
     },
     "\/src\/js\/custom.js" : {
       "ignoreWasSetByUser" : 0,
@@ -941,10 +941,10 @@
       "debugStyle" : 0,
       "strictMath" : 0
     },
-    "\/src\/vendor\/bootstrap\/less\/navs.less" : {
+    "\/src\/less\/layouts\/header.less" : {
       "ieCompatibility" : 1,
-      "inputAbbreviatedPath" : "\/src\/vendor\/bootstrap\/less\/navs.less",
-      "outputAbbreviatedPath" : "\/src\/vendor\/bootstrap\/css\/navs.css",
+      "inputAbbreviatedPath" : "\/src\/less\/layouts\/header.less",
+      "outputAbbreviatedPath" : "\/src\/less\/css\/header.css",
       "outputPathIsSetByUser" : 0,
       "strictUnits" : 0,
       "relativeURLS" : 0,
@@ -992,10 +992,10 @@
       "debugStyle" : 0,
       "strictMath" : 0
     },
-    "\/src\/less\/layouts\/header.less" : {
+    "\/src\/vendor\/bootstrap\/less\/navs.less" : {
       "ieCompatibility" : 1,
-      "inputAbbreviatedPath" : "\/src\/less\/layouts\/header.less",
-      "outputAbbreviatedPath" : "\/src\/less\/css\/header.css",
+      "inputAbbreviatedPath" : "\/src\/vendor\/bootstrap\/less\/navs.less",
+      "outputAbbreviatedPath" : "\/src\/vendor\/bootstrap\/css\/navs.css",
       "outputPathIsSetByUser" : 0,
       "strictUnits" : 0,
       "relativeURLS" : 0,
@@ -1317,10 +1317,10 @@
       "debugStyle" : 0,
       "strictMath" : 0
     },
-    "\/src\/less\/components\/icons.less" : {
+    "\/src\/vendor\/bootstrap\/less\/mixins\/border-radius.less" : {
       "ieCompatibility" : 1,
-      "inputAbbreviatedPath" : "\/src\/less\/components\/icons.less",
-      "outputAbbreviatedPath" : "\/src\/less\/css\/icons.css",
+      "inputAbbreviatedPath" : "\/src\/vendor\/bootstrap\/less\/mixins\/border-radius.less",
+      "outputAbbreviatedPath" : "\/src\/vendor\/bootstrap\/less\/css\/border-radius.css",
       "outputPathIsSetByUser" : 0,
       "strictUnits" : 0,
       "relativeURLS" : 0,
@@ -1351,10 +1351,10 @@
       "debugStyle" : 0,
       "strictMath" : 0
     },
-    "\/src\/vendor\/bootstrap\/less\/mixins\/border-radius.less" : {
+    "\/src\/less\/components\/icons.less" : {
       "ieCompatibility" : 1,
-      "inputAbbreviatedPath" : "\/src\/vendor\/bootstrap\/less\/mixins\/border-radius.less",
-      "outputAbbreviatedPath" : "\/src\/vendor\/bootstrap\/less\/css\/border-radius.css",
+      "inputAbbreviatedPath" : "\/src\/less\/components\/icons.less",
+      "outputAbbreviatedPath" : "\/src\/less\/css\/icons.css",
       "outputPathIsSetByUser" : 0,
       "strictUnits" : 0,
       "relativeURLS" : 0,

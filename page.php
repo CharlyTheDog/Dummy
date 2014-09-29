@@ -1,4 +1,7 @@
-<?php defined('ABSPATH') or die("Silence is golden."); ?>
+<?php defined('ABSPATH') or die("Silence is golden."); 
+
+// Page template, used for all pages
+?>
 
 <?php get_template_part('templates/page', 'header'); ?>
 <div class="container">
