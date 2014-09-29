@@ -11,4 +11,3 @@ function dummy_add_head_icons() { ?>
 <?php }
 endif;
 add_action('wp_head', 'dummy_add_head_icons');
-
