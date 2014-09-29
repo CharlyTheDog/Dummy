@@ -19,6 +19,6 @@ First Steps
 
 1. Clone this repository into your themes directory.
 1. Rename the directory name to your own project name.
-1. Open '''style.css''' and edit the text to fit your own project.
+1. Open `style.css` and edit the text to fit your own project.
 1. Change the screenshot.png to your own projects screenshot.
-1. Replace the images in '''assets/img/''' with your own.
+1. Replace the images in `assets/img/` with your own.
