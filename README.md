@@ -26,12 +26,12 @@ First Steps
 Setup Development Environment
 ------
 
-## LESS
+### LESS
 
 Dummy uses LESS for styling your website. All LESS files can be found in `assets/less`.
 You need to setup a LESS compiler to compile `assets/less/styles.less` to `assets/css/styles.css`.
 
 If you are using Codekit just add the `assets` directory to it. This directory includes a `codekit-config.json` file, which tells Codekit how to handle the LESS files.
 
-## JS
+### JS
 
